@@ -11,7 +11,7 @@ reference:- https://pve.proxmox.com/wiki/Manual:_qm.conf <br />
 
 
 ## Add local disk to VM via proxmox console 
-
+Datacenter -->VM-->hardware --> Add Hardisk
 
 ##OpenShift local PV (https://docs.openshift.com/container-platform/4.6/storage/persistent_storage/persistent-storage-local.html)
 
