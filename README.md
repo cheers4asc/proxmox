@@ -9,9 +9,10 @@ Please make sure the Host machine has virtulization enabled
 reference:- https://pve.proxmox.com/wiki/Manual:_qm.conf <br />
             https://pve.proxmox.com/wiki/Nested_Virtualization
 
-
 ## Add local disk to VM via proxmox console 
 Datacenter -->VM-->hardware --> Add Hardisk
+
+### Install Local storage Operator
 
 ##OpenShift local PV (https://docs.openshift.com/container-platform/4.6/storage/persistent_storage/persistent-storage-local.html)
 
@@ -67,3 +68,8 @@ vmimportconfig.v2v.kubevirt.io/vmimport-kubevirt-hyperconverged   13h ```
 NAME                CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM                                                STORAGECLASS   REASON   AGE
 local-pv-81622b7f   32Gi       RWO            Delete           Available                                                        local                   67s
 local-pv-82909390   32Gi       RWO            Delete           Bound       openshift-machine-api/cirrosmin-rich-mite-rootdisk   local                   67s
+
+
+
+#Image registry issue 
+https://access.redhat.com/solutions/5391601
